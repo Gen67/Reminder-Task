@@ -22,8 +22,9 @@ body{
 
 .task-content{
     background-color: rgb(182, 180, 180);
-    width: 100%;
+    width: 300px;
     height: 100px;
+    padding: 5px;
 }
 
 button{ 
@@ -31,4 +32,11 @@ button{
     border-radius: 5px;
     width: 25px;
     height: 20px;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
 }
